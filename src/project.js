@@ -10,7 +10,7 @@ const projects = [
     image: chatappImage,
     tech: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Zustand"],
     github: "https://github.com/aryankhandelwal52/SharChat",
-    demo: "#", // add deployed link if available
+    demo: "https://sharchat-3.onrender.com/",
   },
   {
     id: 2,
