@@ -59,7 +59,7 @@ function App() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="rounded-lg mb-4 w-full object-cover"
+                  className="rounded-lg mb-4 w-64 h-40 mx-auto object-cover"
               />
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="text-gray-400 mb-3">{project.description}</p>

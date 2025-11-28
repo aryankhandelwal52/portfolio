@@ -1,7 +1,20 @@
 import chatappImage from './assets/chat-app.png'
 import skillsync from './assets/Skill_sync.png'
 import dijkstra from './assets/dijkstra.png'
+import codeArenaImage from './assets/codeAreana.png'
+
+
 const projects = [
+  {
+    id: 0,
+    title: "CodeArena: Real-Time Competitive Coding Platform",
+    description:
+      "A full-stack, real-time multiplayer coding contest platform built for head-to-head competition. Features include private room creation, live leaderboards, code execution engine integration (using a secure external API), and real-time Socket.IO communication for instant updates on submissions and scores.",
+    image: codeArenaImage,
+    tech: ["React", "Node.js", "Express", "Socket.IO", "Tailwind CSS", "Code Execution API"],
+    github: "https://github.com/aryankhandelwal52/CodeAreana", // Placeholder - Update with actual CodeArena repo
+    demo: "https://codeareana-app.onrender.com/", // Placeholder - Update with actual CodeArena demo
+  },
   {
     id: 1,
     title: "Real-Time Chat Application",
